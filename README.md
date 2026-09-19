@@ -10,13 +10,15 @@ Rojo adalah tool yang dipakai untuk mensinkronkan scripts dari **lokal** folder 
 ## Why bother?  
 Dengan rojo, kita dapat menggunakan kode editor eksternal seperti VSCode atau vim, menghubungkan ke repository github untuk kolaborasi, dan better code assists (autocomplete, gpt, dll). Kode yang di ubah akan terupdate otomatis oleh rojo di studio dan kita dapat klik 'Play' untuk segera melihat efek dari script.  
 
-## How  
+## How?  
 Disarankan ikut steps dibawah agar tidak mempolusi pc anda:  
 
 ### 1. Install rokit (toolchain manager):  
 https://github.com/rojo-rbx/rokit  
 > [!TIP]  
 > baca README dan install sesuai OS kalian, lalu restart pc agar `rokit` masuk ke PATH. Boleh ditambahkan manual.  
+
+<br />
 
 ### 2. Setup Project  
 Buat folder projek untuk game jika belum dibuat, jika sudah ada di github tim maka bisa `git clone`.  
@@ -33,7 +35,7 @@ rokit install
 ```  
 command ini akan menambahkan `rojo` ke PATH dalam environment folder project, lalu verifikasi:
 
-3. Verifikasi rojo:
+3. Cek rojo:
 ```sh
 rojo --version
 ```  
@@ -43,6 +45,8 @@ rojo --version
 rojo init
 ```  
 Ini akan membuat file `default.project.json` dan folder `src/` berisi template scripts (client, server, shared).
+
+<br />
 
 ### 3. Install Rojo Plugin di Roblox Studio  
 Plugin diperlukan agar Studio bisa menerima perubahan dari rojo server.
@@ -56,6 +60,8 @@ command ini akan menginstall plugin ke studio, cek tab plugins di studio apakah 
 > [!NOTE]  
 > Atau install dari browser: https://create.roblox.com/store/asset/13916111004/Rojo 
 > Setelah install, restart Studio jika plugin belum muncul.
+
+<br />
 
 ### 4. Start Rojo  
 
@@ -77,6 +83,8 @@ rojo serve
 
 > [!IMPORTANT]  
 > Pastikan rojo server **tetap berjalan** selama development. Jika server mati, Studio tidak akan menerima update dari lokal.
+
+<br />
 
 ### 5. Cara Kerja Sinkronisasi  
 - Struktur folder di `src/` di-mapping ke tree Studio berdasarkan `default.project.json`:  
