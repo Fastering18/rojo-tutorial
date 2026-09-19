@@ -57,6 +57,8 @@ rojo plugin install
 
 command ini akan menginstall plugin ke studio, cek tab plugins di studio apakah sudah ada rojo.
 
+![rojo plugin](images/rojoplugin.png)
+
 > [!NOTE]  
 > Atau install dari browser: https://create.roblox.com/store/asset/13916111004/Rojo 
 > Setelah install, restart Studio jika plugin belum muncul.

@@ -55,7 +55,9 @@ The plugin is required so Studio can receive changes from the rojo server.
 rojo plugin install
 ```  
 
-This command will install the plugin to Studio. Check the Plugins tab in Studio to see if Rojo is there.
+This command will install the plugin to Studio. Check the Plugins tab in Studio to see if Rojo is there.  
+
+![rojo plugin](images/rojoplugin.png)
 
 > [!NOTE]  
 > Or install from the browser: https://create.roblox.com/store/asset/13916111004/Rojo 
