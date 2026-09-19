@@ -1,7 +1,7 @@
 # Tutorial Rojo  
 
 <p align="center">
-  <img src="images/jorojo.jpg" alt="Tutorial Rojo Banner" width="600">
+  <img src="images/jorojo.jpg" alt="Tutorial Rojo Banner" width="900">
 </p>
 
 ## What is Rojo?  
